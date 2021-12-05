@@ -1,0 +1,62 @@
+:root {
+    --white: #fff;
+    --orange: #FE6C0E;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* font-family: 'Poppins', sans-serif ; */
+    /* font-family: 'Oswald', sans-serif; */
+font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+.brand  {
+    text-align: left;
+    height: 30px;
+}
+
+.brand img {
+    height: 100%;
+}
+
+.l-banner {
+    position: relative;
+}
+
+.l-banner img {
+    object-fit: contain;
+    object-position: left center;
+}
+
+.l-overlay {
+    background-color: var(--orange);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
